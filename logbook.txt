@@ -13,6 +13,13 @@ data types:
  bool
  list
 
+sequences: str, list, tuple.
+  - accesibile după index
+  - au metodele .count() și .index()
+  - sunt iterabile
+  - suportă operatorul `in`
+
+
 ---
 !de citit o dată!
 
@@ -65,6 +72,7 @@ operatori:
    or
    and
    not
+   in
 
 ---
 concepte fundamentale
@@ -118,6 +126,19 @@ format()
 TODO: exercițiu: înlocuit doar a 2a valoare dintr-un string
 
 
+---
+Important exception types
+
+SyntaxError
+NameError # când nu există o variabilă
+IndexError
+ValueError # apare în mai multe situații
+
+
+---
+Installing packages
+
+pip install ipython
 
 ---
 Utilizat VSCode:
@@ -125,3 +146,13 @@ Utilizat VSCode:
 Ctrl+/      (un)comment selection
 Ctrl+F5     run python program
 Shift+Enter execute selection in python shell
+
+
+
+---
+Wisdom:
+
+There are 2 really complicated problems in computing:
+- naming things
+- cache invalidation
+- off-by-one errors

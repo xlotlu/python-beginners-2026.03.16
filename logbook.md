@@ -1,4 +1,4 @@
-Concepte:
+# Concepte:
 
 reprezentare a unei variabile = ce scrie programatorul
 vs.
@@ -21,6 +21,7 @@ sequences: str, list, tuple.
 
 
 ---
+
 !de citit o dată!
 
 Styleguide (PEP-8)
@@ -31,6 +32,7 @@ https://docs.python.org/3/library/stdtypes.html
 
 String formatting
 https://docs.python.org/3/library/string.html#formatstrings
+
 
 ---
 
@@ -54,7 +56,8 @@ poate conține caractere alfanumerice și underscore. nu poate începe cu număr
 
 ---
 
-operatori:
+# operatori:
+
  matematici, noi:
    **  ridicare la putere
    //  partea întreagă a împărțirii
@@ -75,16 +78,19 @@ operatori:
    in
 
 ---
-concepte fundamentale
+
+# concepte fundamentale
 
 mutabilitate
 în Python totul este un obiect
   adică: are atribute (o proprietate atașată obiectului) și metode (funcții atașate obiectului)
 
+în Python totul este o referință
 
 ---
 
-funcția:
+# funcția:
+
  - scopul său este reutilizarea de logică aplicată unui input, și returnarea unui output
  - primește argumente separate de virgulă
  - poate returna un rezultat
@@ -95,14 +101,16 @@ argumentele pot fi și nelimitate
 argumentele pot avea valori default
 
 ---
-debugging essentials:
+
+# debugging essentials:
 
 print()
 help()
+type()
 
 ---
 
-str: metode uzuale
+# str: metode uzuale
 
 split()
 
@@ -121,27 +129,26 @@ format()
 
 !? join()
 
-
-
-TODO: exercițiu: înlocuit doar a 2a valoare dintr-un string
-
-
 ---
-Important exception types
+
+# Important exception types
 
 SyntaxError
 NameError # când nu există o variabilă
+TypeError # în mai multe situații: argumente improprii la chemarea funcției
 IndexError
 ValueError # apare în mai multe situații
 
 
 ---
-Installing packages
+
+# Installing packages
 
 pip install ipython
 
 ---
-Utilizat VSCode:
+
+# Utilizat VSCode:
 
 Ctrl+/      (un)comment selection
 Ctrl+F5     run python program
@@ -150,9 +157,18 @@ Shift+Enter execute selection in python shell
 
 
 ---
-Wisdom:
+
+# Essential Wisdom:
 
 There are 2 really complicated problems in computing:
 - naming things
 - cache invalidation
 - off-by-one errors
+
+OCD = obsessive-compulsive disorder
+
+RTFM = read the f... manual
+STFW = search the effing web
+
+
+https://www.youtube.com/watch?v=Cbk980jV7Ao [Validation]

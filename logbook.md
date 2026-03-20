@@ -6,7 +6,8 @@ output = ce așteaptă operatorul uman
 
 ---
 
-data types:
+# data types:
+
  int
  float
  str
@@ -22,7 +23,7 @@ sequences: str, list, tuple.
 
 ---
 
-!de citit o dată!
+# !de citit o dată!
 
 Styleguide (PEP-8)
 https://peps.python.org/pep-0008/
@@ -61,6 +62,7 @@ poate conține caractere alfanumerice și underscore. nu poate începe cu număr
  matematici, noi:
    **  ridicare la putere
    //  partea întreagă a împărțirii
+   %   restul împărțirii
 
  == testează egalitate
  <
@@ -82,6 +84,7 @@ poate conține caractere alfanumerice și underscore. nu poate începe cu număr
 # concepte fundamentale
 
 mutabilitate
+
 în Python totul este un obiect
   adică: are atribute (o proprietate atașată obiectului) și metode (funcții atașate obiectului)
 
@@ -96,7 +99,7 @@ mutabilitate
  - poate returna un rezultat
  - poate avea side-effects (output în consolă, scriere pe disc, scriere în rețea etc.)
 
-argumentele sunt de obicei de nu număr dat
+argumentele sunt de obicei de un număr dat
 argumentele pot fi și nelimitate
 argumentele pot avea valori default
 
@@ -138,13 +141,16 @@ NameError # când nu există o variabilă
 TypeError # în mai multe situații: argumente improprii la chemarea funcției
 IndexError
 ValueError # apare în mai multe situații
-
+KeyError  # când dicționarul nu are cheia
 
 ---
 
 # Installing packages
 
 pip install ipython
+pip install openpyxl
+# dacă faceți heavy writing cu scriere de fișiere excel, instalați și
+pip install lxml
 
 ---
 
@@ -155,6 +161,13 @@ Ctrl+F5     run python program
 Shift+Enter execute selection in python shell
 
 
+---
+
+# Utilizat ipython
+
+# dacă vreți autoreload la development
+%load_ext autoreload
+%autoreload 2
 
 ---
 
@@ -170,5 +183,13 @@ OCD = obsessive-compulsive disorder
 RTFM = read the f... manual
 STFW = search the effing web
 
+PEBKAC = problem exists between computer and chair
+"user error, replace user and press any key"
+
 
 https://www.youtube.com/watch?v=Cbk980jV7Ao [Validation]
+
+https://marshallbrain.com/manna1 [Manna, short novel]
+
+
+>>> import this

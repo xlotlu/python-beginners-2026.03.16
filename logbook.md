@@ -193,3 +193,8 @@ https://marshallbrain.com/manna1 [Manna, short novel]
 
 
 >>> import this
+
+
+---
+
+Mulțumiri!
